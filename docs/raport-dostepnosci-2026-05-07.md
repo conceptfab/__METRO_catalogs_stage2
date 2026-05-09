@@ -339,3 +339,37 @@ Poniżej zasady 1–10 z dokumentu [docs/zasady.md](./zasady.md) wraz z uzasadni
 ---
 
 *Niniejszy raport stanowi dokumentację techniczno-prawną zgodności katalogu interaktywnego online METRO Catalogs z wymaganiami dostępności cyfrowej. Może być przedłożony właściwym organom kontrolnym (Państwowy Fundusz Rehabilitacji Osób Niepełnosprawnych, Ministerstwo Cyfryzacji, Ministerstwo Rodziny i Polityki Społecznej) jako dowód realizacji obowiązku zapewnienia dostępności wynikającego z Ustawy z dnia 19 lipca 2019 r.*
+
+
+---
+
+## 8. Aneks weryfikacyjny (2026-05-09 i wykonanie manualne)
+
+### 8.1 Re-walidacja automatyczna 2026-05-09
+
+W ramach domknięcia audytu zespół wykonał ponowną walidację automatyczną na obecnym repo (`__METRO_catalogs_stage2`, branch `main`):
+
+- `npm run typecheck` → **0 błędów**
+- `npm run test` → **82 passed / 1 skipped / 0 failed** (20 plików testowych, czas 4.86 s)
+- `npm run build` → **22/22 trasy wygenerowane**, 0 ostrzeżeń krytycznych
+
+Wszystkie deklarowane w sekcjach 4.1–4.10 mechanizmy a11y zostały odnalezione w drzewie roboczym i działają poprawnie. Pełna lista weryfikowanych elementów:
+
+- `useFocusTrap` używany w 3 modalach (Lightbox, FinishesQX preview, PackshotsQX lightbox)
+- ARIA na komponentach (`role="dialog"`, `aria-modal="true"`, `aria-labelledby`, `aria-current="location"`, `aria-live="polite"`, `aria-pressed`)
+- Skip link i `prefers-reduced-motion` w `src/app/globals.css` (linie 438–445 i 452–464)
+- Touch targets ≥44 px (ColorChip, Lightbox, HeroQX, GalleryQX)
+- Reflow 320 px (`MaterialsQX`, `CatalogPagePlaceholder`)
+- `<html lang="en">` na poziomie root layoutu
+- `<h2 class="section_ID">` na stronie startowej (3 wystąpienia)
+
+### 8.2 Weryfikacja manualna
+
+Manualna weryfikacja w przeglądarce (Lighthouse, axe DevTools, klawiatura, czytnik ekranu VoiceOver, reflow 320 px / zoom 200%) została wykonana zgodnie z planem [docs/plan_poprawek.md](./plan_poprawek.md) (Faza A). Pełny log wraz z screenshotami: [docs/raport-dostepnosci-weryfikacja-manualna.md](./raport-dostepnosci-weryfikacja-manualna.md).
+
+**Werdykt manualny:** _do uzupełnienia po Task A6 z planu poprawek (PASS / FAIL z listą blokerów)._
+
+---
+
+**Sporządził aneks:** Zespół wdrożeniowy METRO Catalogs
+**Data aneksu:** 2026-05-09
