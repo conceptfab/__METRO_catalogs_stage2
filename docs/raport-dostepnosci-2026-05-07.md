@@ -99,7 +99,7 @@ Poniżej zasady 1–10 z dokumentu [docs/zasady.md](./zasady.md) wraz z uzasadni
 
 4. **Indywidualne dostosowanie wyświetlania.**
    - Zoom przeglądarki do 200 % nie powoduje utraty treści ani poziomego scrolla (WCAG 1.4.4 Resize Text).
-   - Reflow przy szerokości 320 px — usunięto sztywne szerokości `lg:w-[721px]` i `max-w-xl` w komponentach `MaterialsQX`, `CatalogPageType2`, `CatalogPageType3` (WCAG 1.4.10).
+   - Reflow przy szerokości 320 px — usunięto sztywne szerokości `lg:w-[721px]` w komponencie [`MaterialsQX`](../src/layouts/qx/MaterialsQX.tsx#L186) (zamienione na `lg:w-full lg:max-w-[721px]`). Komponent [`CatalogPagePlaceholder`](../src/components/catalog/CatalogPagePlaceholder.tsx#L30), pełniący rolę zaślepki dla nieukończonych typów layoutu (`type2`, `type3` — przewidziane dla przyszłych kolekcji), używa `max-w-full sm:max-w-xl` (WCAG 1.4.10).
    - Respektowanie preferencji `prefers-reduced-motion`:
      - Globalna reguła CSS w [src/app/globals.css:367–379](../src/app/globals.css) skraca wszystkie animacje do 0,01 ms.
      - Warstwa logiki w [src/lib/motion.ts](../src/lib/motion.ts) — funkcja `scaleMotionValue` zwraca 0 przy aktywnej preferencji.
@@ -207,7 +207,7 @@ Poniżej zasady 1–10 z dokumentu [docs/zasady.md](./zasady.md) wraz z uzasadni
    - Desktop (≥ 1024 px) — `grid-cols-5/8`, fixed canvas 1440×960 dla głównych sekcji QX.
 2. **Reflow przy 320 px** — zweryfikowano że wszystkie strony renderują się bez poziomego scrollbara przy szerokości 320 px (WCAG 1.4.10):
    - `MaterialsQX` — `lg:w-full lg:max-w-[721px]` (zamiast sztywnego `lg:w-[721px]`).
-   - `CatalogPageType2` i `CatalogPageType3` — `max-w-full sm:max-w-xl`.
+   - [`CatalogPagePlaceholder`](../src/components/catalog/CatalogPagePlaceholder.tsx#L30) (zaślepka dla layoutów `type2` / `type3` przewidzianych w schemacie [`src/types/catalog.ts`](../src/types/catalog.ts) dla przyszłych kolekcji) — `max-w-full sm:max-w-xl`.
 3. **Rozmiary elementów interakcji** — patrz zasada 6 powyżej.
 
 **Powiązane kryteria WCAG:** 1.4.10 (Reflow), 1.3.4 (Orientation), 2.5.5 (Target Size).
