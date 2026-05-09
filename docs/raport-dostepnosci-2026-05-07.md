@@ -3,7 +3,7 @@
 **Data sporządzenia:** 7 maja 2026 r.
 **Przedmiot:** Katalog interaktywny online — METRO Catalogs (kolekcje QX, QS oraz kolejne, dystrybuowane pod marką METRO).
 **Wykonawca raportu:** Zespół wdrożeniowy METRO Catalogs.
-**Wersja oprogramowania:** branch `audyt_fix`, commit referencyjny `27d1578` (na bazie `f6508ab`).
+**Repozytorium:** `__METRO_catalogs_stage2`, branch `main` — historia po skondensowanym imporcie ze stage 1 (oryginalna gałąź `audyt_fix` z 28 commitami została zaplaszczona; szczegółowy rejestr zmian per zadanie pozostaje dostępny w [docs/superpowers/plans/2026-05-07-accessibility-progress.md](./superpowers/plans/2026-05-07-accessibility-progress.md)).
 **Standard odniesienia:** Web Content Accessibility Guidelines (WCAG) 2.1 na poziomie AA.
 
 ---
@@ -38,9 +38,9 @@ Z oceny wyłączono biblioteczne komponenty `shadcn/ui` (oparte o Radix UI) — 
 
 1. **Audyt statyczny kodu** zgodnie z kryteriami WCAG 2.1 AA — wynik: [.ui-design/audits/metro_catalogs_zasady_20260507_115012.md](../.ui-design/audits/metro_catalogs_zasady_20260507_115012.md). Zidentyfikowano 27 ustaleń: 5 krytycznych (K1–K5), 8 poważnych (P1–P8), 9 umiarkowanych (U1–U9) i 5 drobnych (D1–D5).
 2. **Plan implementacji napraw:** [docs/superpowers/plans/2026-05-07-accessibility-wcag-aa-remediation.md](./superpowers/plans/2026-05-07-accessibility-wcag-aa-remediation.md).
-3. **Wdrożenie napraw:** 28 zatwierdzonych zmian (git commits) na gałęzi `audyt_fix` — pełny rejestr w [docs/superpowers/plans/2026-05-07-accessibility-progress.md](./superpowers/plans/2026-05-07-accessibility-progress.md).
-4. **Weryfikacja automatyczna:** zestaw testów jednostkowych z biblioteką `jest-axe` (axe-core) — 44 testy zaliczone, 0 niezaliczonych.
-5. **Testy regresji:** typecheck (`tsc --noEmit`) — 0 błędów; build produkcyjny — 10 stron statycznych wygenerowanych pomyślnie.
+3. **Wdrożenie napraw:** 28 zatwierdzonych zmian wdrożonych pierwotnie na gałęzi `audyt_fix` (stage 1). Po imporcie do `__METRO_catalogs_stage2` historia git została skondensowana; tożsamość zmian na poziomie zadań (T0.1–T5.1) pozostaje wiernie udokumentowana w [docs/superpowers/plans/2026-05-07-accessibility-progress.md](./superpowers/plans/2026-05-07-accessibility-progress.md), a faktyczna obecność wszystkich mechanizmów w drzewie roboczym została potwierdzona automatyczną weryfikacją (typecheck, jest-axe, build) z 2026-05-09.
+4. **Weryfikacja automatyczna:** zestaw testów jednostkowych (vitest + jest-axe / axe-core) — **82 testy zaliczone, 1 pominięty** (`overview-min-size.test.ts` — pominięcie pre-existing, niezwiązane z dostępnością), **0 niezaliczonych**. Stan na 2026-05-09 (re-run `npm run test`).
+5. **Testy regresji:** typecheck (`tsc --noEmit`) — 0 błędów; build produkcyjny (`npm run build`) — **22 trasy wygenerowane pomyślnie** (5 prerenderowanych statycznie: `/`, `/_not-found`, `/design-system`, `/robots.txt`, `/sitemap.xml`; 2 SSG: `/catalog/QX`, `/catalog/QS`; 15 dynamicznych funkcji serwerowych). Stan na 2026-05-09.
 
 ---
 
