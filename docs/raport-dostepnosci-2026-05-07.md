@@ -324,10 +324,11 @@ Poniżej zasady 1–10 z dokumentu [docs/zasady.md](./zasady.md) wraz z uzasadni
 
 - **Załącznik A.** Audyt dostępności frontendu — [`.ui-design/audits/metro_catalogs_zasady_20260507_115012.md`](../.ui-design/audits/metro_catalogs_zasady_20260507_115012.md)
 - **Załącznik B.** Plan implementacji napraw — [`docs/superpowers/plans/2026-05-07-accessibility-wcag-aa-remediation.md`](./superpowers/plans/2026-05-07-accessibility-wcag-aa-remediation.md)
-- **Załącznik C.** Rejestr postępu i checklista weryfikacji manualnej — [`docs/superpowers/plans/2026-05-07-accessibility-progress.md`](./superpowers/plans/2026-05-07-accessibility-progress.md)
+- **Załącznik C.** Rejestr postępu i mapowanie zadań T0.1–T5.1 na pierwotne SHA — [`docs/superpowers/plans/2026-05-07-accessibility-progress.md`](./superpowers/plans/2026-05-07-accessibility-progress.md)
 - **Załącznik D.** Zasady projektowe (dokument źródłowy) — [`docs/zasady.md`](./zasady.md)
 - **Załącznik E.** Dokumentacja wzorców a11y na żywo — strona `/design-system#a11y-patterns` w aplikacji
-- **Załącznik F.** Pełny rejestr 28 zmian (`git log f6508ab..HEAD --oneline`) na gałęzi `audyt_fix`
+- **Załącznik F.** Raport z manualnej weryfikacji a11y (Lighthouse, axe DevTools, klawiatura, czytnik ekranu, reflow) — [`docs/raport-dostepnosci-weryfikacja-manualna.md`](./raport-dostepnosci-weryfikacja-manualna.md)
+- **Załącznik G.** Plan poprawek doprowadzający audyt do kompletności — [`docs/plan_poprawek.md`](./plan_poprawek.md)
 
 ---
 
