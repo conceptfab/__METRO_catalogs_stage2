@@ -296,14 +296,15 @@ Poniżej zasady 1–10 z dokumentu [docs/zasady.md](./zasady.md) wraz z uzasadni
 
 ## 5. Podsumowanie weryfikacji technicznej
 
-| Wskaźnik | Wartość |
-| --- | --- |
-| Zidentyfikowanych ustaleń z audytu | 27 (5 K, 8 P, 9 U, 5 D) |
-| Wdrożonych poprawek (commits) | 28 |
-| Testy automatyczne (vitest + jest-axe) | 44 zaliczonych / 1 pominięty (powód niezwiązany z dostępnością) / 0 niezaliczonych |
-| Sprawdzenie typów (TypeScript) | 0 błędów |
-| Build produkcyjny (Next.js) | 10/10 stron statycznych wygenerowanych poprawnie |
-| Pokrycie zasad uniwersalnego projektowania (10 zasad) | 10/10 spełnionych |
+| Wskaźnik | Wartość | Stan na |
+| --- | --- | --- |
+| Zidentyfikowanych ustaleń z audytu | 27 (5 K, 8 P, 9 U, 5 D) | 2026-05-07 |
+| Wdrożonych poprawek (per zadanie T0.1–T5.1) | 28 | 2026-05-07 |
+| Testy automatyczne (vitest + jest-axe) | 82 zaliczone / 1 pominięty (`overview-min-size.test.ts`, powód niezwiązany z a11y) / 0 niezaliczonych | 2026-05-09 |
+| Sprawdzenie typów (TypeScript) | 0 błędów (`tsc --noEmit`) | 2026-05-09 |
+| Build produkcyjny (Next.js 15.5.12) | 22/22 trasy wygenerowane poprawnie (5 prerendered + 2 SSG + 15 dynamicznych) | 2026-05-09 |
+| Pokrycie zasad uniwersalnego projektowania (10 zasad) | 10/10 spełnionych w warstwie kodu | 2026-05-07 |
+| Manualna weryfikacja a11y (Lighthouse + axe + AT + reflow) | _zob. [docs/raport-dostepnosci-weryfikacja-manualna.md](./raport-dostepnosci-weryfikacja-manualna.md)_ | _data wykonania Task A_ |
 
 ---
 
