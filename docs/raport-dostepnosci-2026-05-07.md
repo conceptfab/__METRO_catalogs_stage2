@@ -101,7 +101,7 @@ Poniżej zasady 1–10 z dokumentu [docs/zasady.md](./zasady.md) wraz z uzasadni
    - Zoom przeglądarki do 200 % nie powoduje utraty treści ani poziomego scrolla (WCAG 1.4.4 Resize Text).
    - Reflow przy szerokości 320 px — usunięto sztywne szerokości `lg:w-[721px]` w komponencie [`MaterialsQX`](../src/layouts/qx/MaterialsQX.tsx#L186) (zamienione na `lg:w-full lg:max-w-[721px]`). Komponent [`CatalogPagePlaceholder`](../src/components/catalog/CatalogPagePlaceholder.tsx#L30), pełniący rolę zaślepki dla nieukończonych typów layoutu (`type2`, `type3` — przewidziane dla przyszłych kolekcji), używa `max-w-full sm:max-w-xl` (WCAG 1.4.10).
    - Respektowanie preferencji `prefers-reduced-motion`:
-     - Globalna reguła CSS w [src/app/globals.css:367–379](../src/app/globals.css) skraca wszystkie animacje do 0,01 ms.
+     - Globalna reguła CSS w [src/app/globals.css:452-464](../src/app/globals.css#L452-L464) skraca wszystkie animacje do 0,01 ms.
      - Warstwa logiki w [src/lib/motion.ts](../src/lib/motion.ts) — funkcja `scaleMotionValue` zwraca 0 przy aktywnej preferencji.
      - Wideo w `FeaturesQX` i autoplay slidera Hero są wyłączane przy `prefers-reduced-motion`.
 
@@ -119,7 +119,7 @@ Poniżej zasady 1–10 z dokumentu [docs/zasady.md](./zasady.md) wraz z uzasadni
 
 - **Spójna struktura sekcji** w obrębie katalogu — wszystkie kolekcje używają tego samego układu (Hero → Overview → Gallery → Finishes → Models → Specs → Build → Tech → Getting Started → Product Codes), ujednoliconego przez komponenty `CatalogPageQX` i `SectionShell`.
 - **Pasek nawigacji** widoczny stale na górze, z aktywną sekcją oznaczoną wizualnie (pogrubiona, podkreślona) i programowo (`aria-current="location"`).
-- **Skip link** umożliwiający pominięcie nawigacji i przeskok do treści głównej (WCAG 2.4.1 Bypass Blocks). Implementacja: [src/app/globals.css:352–360](../src/app/globals.css), użycie: [src/layouts/qx/CatalogPageQX.tsx:39–41](../src/layouts/qx/CatalogPageQX.tsx).
+- **Skip link** umożliwiający pominięcie nawigacji i przeskok do treści głównej (WCAG 2.4.1 Bypass Blocks). Implementacja: [src/app/globals.css:438-445](../src/app/globals.css#L438-L445), użycie: [src/layouts/qx/CatalogPageQX.tsx](../src/layouts/qx/CatalogPageQX.tsx).
 - **Brak akcji wymagających wiedzy technicznej** — nie ma formularzy ani formularzy konfiguracyjnych wymagających specjalistycznych pojęć; konfigurator materiałów operuje wyłącznie miniaturami i nazwami handlowymi.
 - **Strony błędów** — komponent `not-found.tsx` z czytelnym CTA powrotnym (44×44 touch target).
 
