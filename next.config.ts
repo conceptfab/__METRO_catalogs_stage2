@@ -26,6 +26,7 @@ export default function nextConfig(phase: string): NextConfig {
       : DEFAULT_DIST_DIR,
     experimental: {
       optimizePackageImports: ['lucide-react', 'framer-motion'],
+      reactCompiler: true,
     },
     images: {
       loader: 'custom',
