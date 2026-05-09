@@ -244,7 +244,7 @@ Poniżej zasady 1–10 z dokumentu [docs/zasady.md](./zasady.md) wraz z uzasadni
 | **4.1.2** Name, Role, Value | `aria-current="location"`, `role="group"`, `aria-pressed`, `aria-modal`, `aria-labelledby` |
 | **4.1.3** Status Messages | `aria-live="polite"` na licznikach Lightbox/Packshots |
 
-**Weryfikacja automatyczna:** zestaw 44 testów jednostkowych (vitest + jest-axe) z pokryciem dla `Lightbox`, `MaterialsOptionGroup`, `ColorChip`, `CatalogNav`, `SectionShell`, `SectionHeading`, `useFocusTrap` oraz a11y-helpers — wszystkie zaliczone, 0 niezaliczonych. Build produkcyjny generuje 10 stron statycznych bez błędów.
+**Weryfikacja automatyczna:** zestaw 82 testów jednostkowych (vitest + jest-axe) z pokryciem dla `Lightbox`, `MaterialsOptionGroup`, `ColorChip`, `CatalogNav`, `SectionShell`, `SectionHeading`, `useFocusTrap` oraz a11y-helpers — 82 zaliczone, 1 pominięty (`overview-min-size.test.ts`, niezwiązany z a11y), 0 niezaliczonych. Build produkcyjny generuje 22 trasy bez błędów krytycznych. Stan na 2026-05-09.
 
 **Weryfikacja manualna do wykonania przed publikacją:**
 - Lighthouse Accessibility audit ≥ 95 na trzech reprezentatywnych stronach.
