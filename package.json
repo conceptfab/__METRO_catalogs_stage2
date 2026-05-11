@@ -18,6 +18,8 @@
     "thumbnails": "node scripts/generate-thumbnails.mjs",
     "thumbnails:force": "node scripts/generate-thumbnails.mjs --force",
     "thumbnails:clean": "node scripts/generate-thumbnails.mjs --clean",
+    "orphans": "node scripts/find-orphans.mjs",
+    "orphans:delete": "node scripts/find-orphans.mjs --delete",
     "assets:check": "node scripts/check-no-rasterized-non-webp.mjs",
     "assets:webp": "node scripts/convert-png-to-webp.mjs",
     "test": "vitest run",

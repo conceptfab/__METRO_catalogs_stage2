@@ -28,4 +28,5 @@ export const SECTION_WIDTHS = {
  */
 export const SECTION_ASPECTS = {
   overview: 720 / 960,
+  gallery_thumb: 1,
 };
