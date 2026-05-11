@@ -2,7 +2,6 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { AnimatePresence, m, useInView } from 'framer-motion';
-import Image from 'next/image';
 import type { MaterialsConfiguratorOption, MaterialsData } from '@/types/catalog';
 import { SECTION_REVEAL_SETTLE, slowTransition } from '@/lib/motion';
 import { QxText } from '@/components/catalog/QxText';
@@ -145,7 +144,7 @@ const MaterialsQX = ({ data }: MaterialsSectionProps) => {
   const configuratorAlt =
     selectedFrame && selectedDesktop
       ? `Metro desk with desktop ${selectedDesktop.label} and frame ${selectedFrame.label}`
-      : data.detailImageAlt;
+      : `${data.title} preview`;
 
   return (
     <section
@@ -305,17 +304,7 @@ const MaterialsQX = ({ data }: MaterialsSectionProps) => {
                 />
               </AnimatePresence>
             </figure>
-          ) : (
-            <figure className="group relative h-full w-full overflow-hidden">
-              <Image
-                src={data.detailImage}
-                alt={data.detailImageAlt}
-                fill
-                sizes="(min-width: 1440px) 687px, (min-width: 1024px) 50vw, 100vw"
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-              />
-            </figure>
-          )}
+          ) : null}
         </m.div>
       </div>
     </section>

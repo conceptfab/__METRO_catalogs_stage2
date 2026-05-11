@@ -39,10 +39,18 @@ function parsePackshotImage(filename: string | undefined): {
   const stem = base.replace(/\.[^.]+$/, '').split('__')[0];
   const tokens = stem.split('_');
   const topToken = tokens[1];
-  const frameToken = tokens[2]?.toLowerCase();
+  const frameToken = tokens[2];
   const topCode =
     topToken && /^[UW]\d+$/i.test(topToken) ? topToken.toUpperCase() : undefined;
-  const frameCode = frameToken ? FRAME_COLOR_FROM_NAME[frameToken] : undefined;
+
+  let frameCode: string | undefined;
+  if (frameToken) {
+    if (/^RAL\d+$/i.test(frameToken)) {
+      frameCode = frameToken.toUpperCase();
+    } else {
+      frameCode = FRAME_COLOR_FROM_NAME[frameToken.toLowerCase()];
+    }
+  }
   return { topCode, frameCode };
 }
 
@@ -229,27 +237,25 @@ const PackshotsQX = ({
                   )}
                   <div className="qx-packshot-meta">
                     <span className="qx-packshot-code">{item.code}</span>
-                    {frameOption && (
+                    {frameCode && (
                       <span className="inline-flex items-center gap-1.5">
                         <span className="font-display text-[10px] uppercase tracking-[0.12em] text-foreground/70">
                           Frame
                         </span>
-                        <ColorChip option={frameOption} role="frame" />
+                        {frameOption ? (
+                          <ColorChip option={frameOption} role="frame" />
+                        ) : null}
                       </span>
                     )}
-                    {desktopOption && (
+                    {topCode && (
                       <span className="inline-flex items-center gap-1.5">
                         <span className="font-display text-[10px] uppercase tracking-[0.12em] text-foreground/70">
                           Top
                         </span>
-                        <ColorChip option={desktopOption} role="top" />
+                        {desktopOption ? (
+                          <ColorChip option={desktopOption} role="top" />
+                        ) : null}
                       </span>
-                    )}
-                    {item.frameColorName && (
-                      <span>Frame {item.frameColorName}</span>
-                    )}
-                    {item.desktopColorName && (
-                      <span>Top {item.desktopColorName}</span>
                     )}
                   </div>
                 </m.article>

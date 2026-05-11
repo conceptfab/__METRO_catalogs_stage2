@@ -655,8 +655,6 @@ export async function loadCatalog(
   const [
     resolvedHeroImage,
     resolvedOverviewPackshot,
-    resolvedPreviewImage,
-    resolvedDetailImage,
     resolvedGalleryImages,
     resolvedPackshots,
     materialsConfigurator,
@@ -664,8 +662,6 @@ export async function loadCatalog(
   ] = await Promise.all([
     resolveImage(heroBase, hero.heroImage),
     resolveImage(`${base}/overview`, overview.packshotImage),
-    resolveImage(finishesBase, finishes.previewImage),
-    resolveImage(materialsBase, materials.detailImage),
     Promise.all(
       (gallery.images ?? []).map(async (img) => ({
         src: await resolveImage(`${base}/gallery`, img.image),
@@ -725,13 +721,11 @@ export async function loadCatalog(
     },
     finishes: {
       ...finishes,
-      previewImage: resolvedPreviewImage,
       ...(finishesConfigurator ? { configurator: finishesConfigurator } : {}),
     },
     dimensions,
     materials: {
       ...materials,
-      detailImage: resolvedDetailImage,
       ...(materialsConfigurator ? { configurator: materialsConfigurator } : {}),
     },
     features,

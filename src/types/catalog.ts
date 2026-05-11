@@ -276,7 +276,6 @@ export interface FinishesData {
   desktopColors: ColorOption[];
   frameColors: ColorOption[];
   sizes: SizeOption[];
-  previewImage: string;
   comparisonTable: ComparisonRow[];
   comparisonBasicLabel?: string;
   comparisonPremiumLabel?: string;
@@ -332,9 +331,6 @@ export interface MaterialsData {
   description?: string;
   materials: MaterialItem[];
   swatches: ColorSwatch[];
-  detailImage: string;
-  detailImageAlt: string;
-  detailImageCaption: string;
   configurator?: MaterialsConfiguratorData;
 }
 

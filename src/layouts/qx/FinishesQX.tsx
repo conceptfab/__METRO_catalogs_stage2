@@ -109,7 +109,7 @@ const FinishesQX = ({ data, configurator }: FinishesSectionProps) => {
     [...desktopOptions, ...frameOptions].find(
       (option) => option.id === selectedPreviewId,
     ) ?? selectedDesktop ?? selectedFrame;
-  const previewImage = selectedPreviewOption?.image ?? data.previewImage;
+  const previewImage = selectedPreviewOption?.image ?? '';
   const previewAlt = selectedPreviewOption?.label ?? data.title;
   const descriptionLines = data.description?.split('\n') ?? [];
 
