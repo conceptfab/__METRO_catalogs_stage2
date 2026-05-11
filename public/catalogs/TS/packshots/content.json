@@ -29,17 +29,6 @@
           "desktopColorCode": "",
           "colorName": "",
           "colorCode": ""
-        },
-        {
-          "code": "TS1",
-          "name": "",
-          "image": "TS1_W350_RAL7021__Shot_A__4K_R9.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
         }
       ]
     },
@@ -63,17 +52,6 @@
           "code": "TS1R",
           "name": "",
           "image": "TS1R_W210_grey__Shot_A__4K_R9.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
-        },
-        {
-          "code": "TS1R",
-          "name": "",
-          "image": "TS1R_W350_RAL7021__Shot_A__4K_R9.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -138,17 +116,6 @@
           "desktopColorCode": "",
           "colorName": "",
           "colorCode": ""
-        },
-        {
-          "code": "TS1DR",
-          "name": "",
-          "image": "TS1DR_W350_RAL7021__Shot_A__4K_R9.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
         }
       ]
     },
@@ -172,17 +139,6 @@
           "code": "TS3EM",
           "name": "",
           "image": "TS3EM_W210_grey__Shot_A__4K_R9.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
-        },
-        {
-          "code": "TS3EM",
-          "name": "",
-          "image": "TS3EM_W350_RAL7021__Shot_A__4K_R9.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",

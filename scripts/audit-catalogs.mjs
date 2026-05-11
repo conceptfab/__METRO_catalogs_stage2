@@ -23,6 +23,7 @@
  *   node scripts/audit-catalogs.mjs            # human report
  *   node scripts/audit-catalogs.mjs --json     # machine-readable
  *   node scripts/audit-catalogs.mjs --strict   # exit 1 if any MISSING/ORPHAN (STALE ignored)
+ *   node scripts/audit-catalogs.mjs --fix      # delete orphan base files + responsive variants, then re-audit
  */
 
 import fs from 'fs/promises';
@@ -35,6 +36,7 @@ const CATALOGS_DIR = path.join(PUBLIC, 'catalogs');
 const args = process.argv.slice(2);
 const JSON_OUT = args.includes('--json');
 const STRICT = args.includes('--strict');
+const FIX = args.includes('--fix');
 
 const c = {
   bold: (s) => `\x1b[1m${s}\x1b[0m`,
@@ -315,23 +317,27 @@ function renderCatalog({ catalog, sections }) {
 }
 
 function renderSummary(catalogs) {
-  const totals = { OK: 0, MISSING: 0, ORPHAN: 0, STALE: 0 };
+  const sectionsByStatus = { OK: 0, MISSING: 0, ORPHAN: 0, STALE: 0 };
+  const fileCounts = { MISSING: 0, ORPHAN: 0, STALE: 0 };
   let totalSections = 0;
   for (const cat of catalogs) {
     for (const s of cat.sections) {
-      totals[s.status]++;
+      sectionsByStatus[s.status]++;
       totalSections++;
+      fileCounts.MISSING += s.missing.length;
+      fileCounts.ORPHAN += s.orphans.length;
+      fileCounts.STALE += s.stale.length;
     }
   }
   log('');
   log(c.bold('═══════════ SUMMARY ═══════════'));
-  log(`  catalogs:        ${catalogs.length}`);
-  log(`  sections:        ${totalSections}`);
-  log(`  ${c.green('OK')}:              ${totals.OK}`);
-  log(`  ${c.red('MISSING')}:         ${totals.MISSING}`);
-  log(`  ${c.yellow('ORPHAN')}:          ${totals.ORPHAN}`);
-  log(`  ${c.magenta('STALE')} (scaffold): ${totals.STALE}`);
-  return totals;
+  log(`  catalogs:                  ${catalogs.length}`);
+  log(`  sections:                  ${totalSections}`);
+  log(`  ${c.green('OK')}:              ${String(sectionsByStatus.OK).padStart(11)} sections`);
+  log(`  ${c.red('MISSING')}:         ${String(sectionsByStatus.MISSING).padStart(6)} sections  ${c.dim(`(${fileCounts.MISSING} files)`)}`);
+  log(`  ${c.yellow('ORPHAN')}:          ${String(sectionsByStatus.ORPHAN).padStart(6)} sections  ${c.dim(`(${fileCounts.ORPHAN} files)`)}`);
+  log(`  ${c.magenta('STALE')} (scaffold): ${String(sectionsByStatus.STALE).padStart(3)} sections  ${c.dim(`(${fileCounts.STALE} files)`)}`);
+  return { sectionsByStatus, fileCounts };
 }
 
 // ---------------------------------------------------------------------------
@@ -357,6 +363,10 @@ async function main() {
   }
 
   if (JSON_OUT) {
+    if (FIX) {
+      console.error('--fix cannot be combined with --json (delete output is human-only).');
+      process.exit(2);
+    }
     console.log(JSON.stringify(results, null, 2));
     if (STRICT) {
       const broken = results.some((r) =>
@@ -370,7 +380,57 @@ async function main() {
   for (const r of results) renderCatalog(r);
   const totals = renderSummary(results);
 
-  if (STRICT && (totals.MISSING > 0 || totals.ORPHAN > 0)) {
+  if (FIX) {
+    const orphanList = [];
+    for (const cat of results) {
+      for (const s of cat.sections) {
+        for (const fileName of s.orphans) {
+          orphanList.push({
+            section: `${cat.catalog}/${s.section}`,
+            sectionDir: path.join(CATALOGS_DIR, cat.catalog, s.section),
+            fileName,
+          });
+        }
+      }
+    }
+
+    if (orphanList.length === 0) {
+      log(c.green('\n--fix: no orphans to delete.'));
+    } else {
+      log(c.bold(c.yellow(`\n--fix: deleting ${orphanList.length} orphan base file(s) + their responsive variants...`)));
+      let removedFiles = 0;
+      let removedBytes = 0;
+      for (const o of orphanList) {
+        const baseFull = path.join(o.sectionDir, o.fileName);
+        const parsed = path.parse(o.fileName);
+        const escaped = parsed.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const variantRegex = new RegExp(`^${escaped}-\\d+w\\.webp$`, 'i');
+
+        const siblings = await fs.readdir(o.sectionDir).catch(() => []);
+        const targets = [
+          baseFull,
+          ...siblings.filter((f) => variantRegex.test(f)).map((f) => path.join(o.sectionDir, f)),
+        ];
+
+        for (const t of targets) {
+          try {
+            const st = await fs.stat(t);
+            await fs.unlink(t);
+            removedFiles++;
+            removedBytes += st.size;
+            log(c.dim(`  removed ${path.relative(PUBLIC, t)}`));
+          } catch {
+            // already gone
+          }
+        }
+      }
+      const mb = (removedBytes / 1024 / 1024).toFixed(2);
+      log(c.green(`\n✓ Removed ${removedFiles} files (${mb} MB).`));
+      log(c.dim('  Re-run `npm run thumbnails` to refresh the responsive-image manifest.'));
+    }
+  }
+
+  if (STRICT && (totals.sectionsByStatus.MISSING > 0 || totals.sectionsByStatus.ORPHAN > 0)) {
     process.exit(1);
   }
 }

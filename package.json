@@ -22,6 +22,7 @@
     "orphans:delete": "node scripts/find-orphans.mjs --delete",
     "audit": "node scripts/audit-catalogs.mjs",
     "audit:strict": "node scripts/audit-catalogs.mjs --strict",
+    "audit:fix": "node scripts/audit-catalogs.mjs --fix",
     "assets:check": "node scripts/check-no-rasterized-non-webp.mjs",
     "assets:webp": "node scripts/convert-png-to-webp.mjs",
     "test": "vitest run",
