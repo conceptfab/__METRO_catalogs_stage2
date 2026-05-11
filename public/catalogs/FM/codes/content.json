@@ -1,0 +1,237 @@
+{
+  "sectionLabel": "Product Codes",
+  "title": "Order references",
+  "description": "Use these unique codes when placing your order or specifying modules for your workspace.",
+  "image": "/catalogs/FM/codes/axo_qx_codes.svg",
+  "legend": "* R – height-adjustable desk models. Other models feature a leveling range of +/- 1cm.",
+  "groups": [
+    {
+      "id": "single-depth-70",
+      "category": "single",
+      "title": "FM single desk (depth 70 cm)",
+      "rows": [
+        {
+          "index": "FM1(R)*",
+          "indexR": "FM1R",
+          "dimensions": "120 × 70 × 74 (63-84)*"
+        },
+        {
+          "index": "FM2(R)*",
+          "indexR": "FM2R",
+          "dimensions": "140 × 70 × 74 (63-84)*"
+        },
+        {
+          "index": "FM3(R)*",
+          "indexR": "FM3R",
+          "dimensions": "160 × 70 × 74 (63-84)*"
+        },
+        {
+          "index": "FM4(R)*",
+          "indexR": "FM4R",
+          "dimensions": "180 × 70 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "single-depth-80",
+      "category": "single",
+      "title": "FM single desk (depth 80 cm)",
+      "rows": [
+        {
+          "index": "FM180(R)*",
+          "indexR": "FM1R80",
+          "dimensions": "120 × 80 × 74 (63-84)*"
+        },
+        {
+          "index": "FM280(R)*",
+          "indexR": "FM2R80",
+          "dimensions": "140 × 80 × 74 (63-84)*"
+        },
+        {
+          "index": "FM380(R)*",
+          "indexR": "FM3R80",
+          "dimensions": "160 × 80 × 74 (63-84)*"
+        },
+        {
+          "index": "FM480(R)*",
+          "indexR": "FM4R80",
+          "dimensions": "180 × 80 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "single-extension-depth-70",
+      "category": "single",
+      "title": "Extension for FM single desk (depth 70 cm)",
+      "rows": [
+        {
+          "index": "FM1D(R)*",
+          "indexR": "FM1RD",
+          "dimensions": "66.5 × 50 × 74 (63-84)*"
+        },
+        {
+          "index": "FM2D(R)*",
+          "indexR": "FM2RD",
+          "dimensions": "86.5 × 50 × 74 (63-84)*"
+        },
+        {
+          "index": "FM3D(R)*",
+          "indexR": "FM3RD",
+          "dimensions": "106.5 × 50 × 74 (63-84)*"
+        },
+        {
+          "index": "FM4D(R)*",
+          "indexR": "FM4RD",
+          "dimensions": "126.5 × 50 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "single-extension-depth-80",
+      "category": "single",
+      "title": "Extension for FM single desk (depth 80 cm)",
+      "rows": [
+        {
+          "index": "FM1D80(R)*",
+          "indexR": "FM1RD80",
+          "dimensions": "66.5 × 50 × 74 (63-84)*"
+        },
+        {
+          "index": "FM2D80(R)*",
+          "indexR": "FM2RD80",
+          "dimensions": "86.5 × 50 × 74 (63-84)*"
+        },
+        {
+          "index": "FM3D80(R)*",
+          "indexR": "FM3RD80",
+          "dimensions": "106.5 × 50 × 74 (63-84)*"
+        },
+        {
+          "index": "FM4D80(R)*",
+          "indexR": "FM4RD80",
+          "dimensions": "126.5 × 50 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "bench-depth-140",
+      "category": "bench",
+      "title": "FM bench double desk (depth 140 cm)",
+      "rows": [
+        {
+          "index": "FM10(R)*",
+          "indexR": "FM10R",
+          "dimensions": "120 × 140 × 74 (63-84)*"
+        },
+        {
+          "index": "FM11(R)*",
+          "indexR": "FM11R",
+          "dimensions": "140 × 140 × 74 (63-84)*"
+        },
+        {
+          "index": "FM12(R)*",
+          "indexR": "FM12R",
+          "dimensions": "160 × 140 × 74 (63-84)*"
+        },
+        {
+          "index": "FM13(R)*",
+          "indexR": "FM13R",
+          "dimensions": "180 × 140 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "bench-depth-160",
+      "category": "bench",
+      "title": "FM bench double desk (depth 160 cm)",
+      "rows": [
+        {
+          "index": "FM1080(R)*",
+          "indexR": "FM1080R",
+          "dimensions": "120 × 160 × 74 (63-84)*"
+        },
+        {
+          "index": "FM1180(R)*",
+          "indexR": "FM1180R",
+          "dimensions": "140 × 160 × 74 (63-84)*"
+        },
+        {
+          "index": "FM1280(R)*",
+          "indexR": "FM1280R",
+          "dimensions": "160 × 160 × 74 (63-84)*"
+        },
+        {
+          "index": "FM1380(R)*",
+          "indexR": "FM1380R",
+          "dimensions": "180 × 160 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "bench-flaps-depth-140",
+      "category": "bench",
+      "title": "FM bench double desk with access to the cable canal through the flaps (depth 140 cm)",
+      "rows": [
+        {
+          "index": "FM15(R)*",
+          "indexR": "FM15R",
+          "dimensions": "120 × 140 × 74 (63-84)*"
+        },
+        {
+          "index": "FM16(R)*",
+          "indexR": "FM16R",
+          "dimensions": "140 × 140 × 74 (63-84)*"
+        },
+        {
+          "index": "FM17(R)*",
+          "indexR": "FM17R",
+          "dimensions": "160 × 140 × 74 (63-84)*"
+        },
+        {
+          "index": "FM18(R)*",
+          "indexR": "FM18R",
+          "dimensions": "180 × 140 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "bench-flaps-depth-160",
+      "category": "bench",
+      "title": "FM bench double desk with access to the cable canal through the flaps (depth 160 cm)",
+      "rows": [
+        {
+          "index": "FM1580(R)*",
+          "indexR": "FM1580R",
+          "dimensions": "120 × 160 × 74 (63-84)*"
+        },
+        {
+          "index": "FM1680(R)*",
+          "indexR": "FM1680R",
+          "dimensions": "140 × 160 × 74 (63-84)*"
+        },
+        {
+          "index": "FM1780(R)*",
+          "indexR": "FM1780R",
+          "dimensions": "160 × 160 × 74 (63-84)*"
+        },
+        {
+          "index": "FM1880(R)*",
+          "indexR": "FM1880R",
+          "dimensions": "180 × 160 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "manager-modesty-panel",
+      "category": "manager",
+      "title": "FM manager's desk with modesty panel",
+      "rows": [
+        {
+          "index": "FM60(R)*",
+          "indexR": "FM60R",
+          "dimensions": "200 × 80 × 74 (63-84)*"
+        }
+      ]
+    }
+  ]
+}

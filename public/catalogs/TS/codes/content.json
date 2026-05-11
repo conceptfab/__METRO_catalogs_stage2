@@ -1,0 +1,237 @@
+{
+  "sectionLabel": "Product Codes",
+  "title": "Order references",
+  "description": "Use these unique codes when placing your order or specifying modules for your workspace.",
+  "image": "/catalogs/TS/codes/axo_qx_codes.svg",
+  "legend": "* R – height-adjustable desk models. Other models feature a leveling range of +/- 1cm.",
+  "groups": [
+    {
+      "id": "single-depth-70",
+      "category": "single",
+      "title": "TS single desk (depth 70 cm)",
+      "rows": [
+        {
+          "index": "TS1(R)*",
+          "indexR": "TS1R",
+          "dimensions": "120 × 70 × 74 (63-84)*"
+        },
+        {
+          "index": "TS2(R)*",
+          "indexR": "TS2R",
+          "dimensions": "140 × 70 × 74 (63-84)*"
+        },
+        {
+          "index": "TS3(R)*",
+          "indexR": "TS3R",
+          "dimensions": "160 × 70 × 74 (63-84)*"
+        },
+        {
+          "index": "TS4(R)*",
+          "indexR": "TS4R",
+          "dimensions": "180 × 70 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "single-depth-80",
+      "category": "single",
+      "title": "TS single desk (depth 80 cm)",
+      "rows": [
+        {
+          "index": "TS180(R)*",
+          "indexR": "TS1R80",
+          "dimensions": "120 × 80 × 74 (63-84)*"
+        },
+        {
+          "index": "TS280(R)*",
+          "indexR": "TS2R80",
+          "dimensions": "140 × 80 × 74 (63-84)*"
+        },
+        {
+          "index": "TS380(R)*",
+          "indexR": "TS3R80",
+          "dimensions": "160 × 80 × 74 (63-84)*"
+        },
+        {
+          "index": "TS480(R)*",
+          "indexR": "TS4R80",
+          "dimensions": "180 × 80 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "single-extension-depth-70",
+      "category": "single",
+      "title": "Extension for TS single desk (depth 70 cm)",
+      "rows": [
+        {
+          "index": "TS1D(R)*",
+          "indexR": "TS1RD",
+          "dimensions": "66.5 × 50 × 74 (63-84)*"
+        },
+        {
+          "index": "TS2D(R)*",
+          "indexR": "TS2RD",
+          "dimensions": "86.5 × 50 × 74 (63-84)*"
+        },
+        {
+          "index": "TS3D(R)*",
+          "indexR": "TS3RD",
+          "dimensions": "106.5 × 50 × 74 (63-84)*"
+        },
+        {
+          "index": "TS4D(R)*",
+          "indexR": "TS4RD",
+          "dimensions": "126.5 × 50 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "single-extension-depth-80",
+      "category": "single",
+      "title": "Extension for TS single desk (depth 80 cm)",
+      "rows": [
+        {
+          "index": "TS1D80(R)*",
+          "indexR": "TS1RD80",
+          "dimensions": "66.5 × 50 × 74 (63-84)*"
+        },
+        {
+          "index": "TS2D80(R)*",
+          "indexR": "TS2RD80",
+          "dimensions": "86.5 × 50 × 74 (63-84)*"
+        },
+        {
+          "index": "TS3D80(R)*",
+          "indexR": "TS3RD80",
+          "dimensions": "106.5 × 50 × 74 (63-84)*"
+        },
+        {
+          "index": "TS4D80(R)*",
+          "indexR": "TS4RD80",
+          "dimensions": "126.5 × 50 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "bench-depth-140",
+      "category": "bench",
+      "title": "TS bench double desk (depth 140 cm)",
+      "rows": [
+        {
+          "index": "TS10(R)*",
+          "indexR": "TS10R",
+          "dimensions": "120 × 140 × 74 (63-84)*"
+        },
+        {
+          "index": "TS11(R)*",
+          "indexR": "TS11R",
+          "dimensions": "140 × 140 × 74 (63-84)*"
+        },
+        {
+          "index": "TS12(R)*",
+          "indexR": "TS12R",
+          "dimensions": "160 × 140 × 74 (63-84)*"
+        },
+        {
+          "index": "TS13(R)*",
+          "indexR": "TS13R",
+          "dimensions": "180 × 140 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "bench-depth-160",
+      "category": "bench",
+      "title": "TS bench double desk (depth 160 cm)",
+      "rows": [
+        {
+          "index": "TS1080(R)*",
+          "indexR": "TS1080R",
+          "dimensions": "120 × 160 × 74 (63-84)*"
+        },
+        {
+          "index": "TS1180(R)*",
+          "indexR": "TS1180R",
+          "dimensions": "140 × 160 × 74 (63-84)*"
+        },
+        {
+          "index": "TS1280(R)*",
+          "indexR": "TS1280R",
+          "dimensions": "160 × 160 × 74 (63-84)*"
+        },
+        {
+          "index": "TS1380(R)*",
+          "indexR": "TS1380R",
+          "dimensions": "180 × 160 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "bench-flaps-depth-140",
+      "category": "bench",
+      "title": "TS bench double desk with access to the cable canal through the flaps (depth 140 cm)",
+      "rows": [
+        {
+          "index": "TS15(R)*",
+          "indexR": "TS15R",
+          "dimensions": "120 × 140 × 74 (63-84)*"
+        },
+        {
+          "index": "TS16(R)*",
+          "indexR": "TS16R",
+          "dimensions": "140 × 140 × 74 (63-84)*"
+        },
+        {
+          "index": "TS17(R)*",
+          "indexR": "TS17R",
+          "dimensions": "160 × 140 × 74 (63-84)*"
+        },
+        {
+          "index": "TS18(R)*",
+          "indexR": "TS18R",
+          "dimensions": "180 × 140 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "bench-flaps-depth-160",
+      "category": "bench",
+      "title": "TS bench double desk with access to the cable canal through the flaps (depth 160 cm)",
+      "rows": [
+        {
+          "index": "TS1580(R)*",
+          "indexR": "TS1580R",
+          "dimensions": "120 × 160 × 74 (63-84)*"
+        },
+        {
+          "index": "TS1680(R)*",
+          "indexR": "TS1680R",
+          "dimensions": "140 × 160 × 74 (63-84)*"
+        },
+        {
+          "index": "TS1780(R)*",
+          "indexR": "TS1780R",
+          "dimensions": "160 × 160 × 74 (63-84)*"
+        },
+        {
+          "index": "TS1880(R)*",
+          "indexR": "TS1880R",
+          "dimensions": "180 × 160 × 74 (63-84)*"
+        }
+      ]
+    },
+    {
+      "id": "manager-modesty-panel",
+      "category": "manager",
+      "title": "TS manager's desk with modesty panel",
+      "rows": [
+        {
+          "index": "TS60(R)*",
+          "indexR": "TS60R",
+          "dimensions": "200 × 80 × 74 (63-84)*"
+        }
+      ]
+    }
+  ]
+}
