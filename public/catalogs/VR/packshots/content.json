@@ -4,242 +4,198 @@
   "subtitle": "All models",
   "groups": [
     {
-      "model": "VR11",
-      "label": "VR11",
+      "model": "V51",
+      "label": "V51",
       "desc": "",
       "items": [
         {
-          "code": "VR11",
+          "code": "V51",
           "name": "",
-          "image": "QX11_W240_black__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
+          "image": "V51_W240_black__Shot_A_4K_R10.webp",
+          "frameColorName": "Black",
+          "frameColorCode": "#1a1a1a",
+          "desktopColorName": "W240",
+          "desktopColorCode": "#5c3a21",
+          "colorName": "W240 / Black",
+          "colorCode": "#5c3a21"
         },
         {
-          "code": "VR11",
+          "code": "V51",
           "name": "",
-          "image": "QX11_W210_grey__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
+          "image": "V51_W240_white__Shot_A_4K_R10.webp",
+          "frameColorName": "White",
+          "frameColorCode": "#f0f0f0",
+          "desktopColorName": "W240",
+          "desktopColorCode": "#5c3a21",
+          "colorName": "W240 / White",
+          "colorCode": "#5c3a21"
         },
         {
-          "code": "VR11",
+          "code": "V51",
           "name": "",
-          "image": "QX11_U120_white__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
+          "image": "V51_U120_grey__Shot_A__4K_R10.webp",
+          "frameColorName": "Grey",
+          "frameColorCode": "#b0b0b0",
+          "desktopColorName": "U120",
+          "desktopColorCode": "#c8c5be",
+          "colorName": "U120 / Grey",
+          "colorCode": "#c8c5be"
         }
       ]
     },
     {
-      "model": "VR11R",
-      "label": "VR11R",
+      "model": "V51SW",
+      "label": "V51SW",
       "desc": "",
       "items": [
         {
-          "code": "VR11R",
+          "code": "V51SW",
           "name": "",
-          "image": "QX11R_W240_black__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
+          "image": "V51SW_W240_black__Shot_A_4K_R10.webp",
+          "frameColorName": "Black",
+          "frameColorCode": "#1a1a1a",
+          "desktopColorName": "W240",
+          "desktopColorCode": "#5c3a21",
+          "colorName": "W240 / Black",
+          "colorCode": "#5c3a21"
         },
         {
-          "code": "VR11R",
+          "code": "V51SW",
           "name": "",
-          "image": "QX11R_W210_grey__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
+          "image": "V51SW_W240_white__Shot_A_4K_R10.webp",
+          "frameColorName": "White",
+          "frameColorCode": "#f0f0f0",
+          "desktopColorName": "W240",
+          "desktopColorCode": "#5c3a21",
+          "colorName": "W240 / White",
+          "colorCode": "#5c3a21"
         },
         {
-          "code": "VR11R",
+          "code": "V51SW",
           "name": "",
-          "image": "QX11R_U120_white__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
+          "image": "V51SW_U120_grey__Shot_A__4K_R10.webp",
+          "frameColorName": "Grey",
+          "frameColorCode": "#b0b0b0",
+          "desktopColorName": "U120",
+          "desktopColorCode": "#c8c5be",
+          "colorName": "U120 / Grey",
+          "colorCode": "#c8c5be"
         }
       ]
     },
     {
-      "model": "VR17",
-      "label": "VR17",
+      "model": "V57",
+      "label": "V57",
       "desc": "",
       "items": [
         {
-          "code": "VR17",
+          "code": "V57",
           "name": "",
-          "image": "QX17_W240_black__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
+          "image": "V57_W240_black__Shot_A_4K_R10.webp",
+          "frameColorName": "Black",
+          "frameColorCode": "#1a1a1a",
+          "desktopColorName": "W240",
+          "desktopColorCode": "#5c3a21",
+          "colorName": "W240 / Black",
+          "colorCode": "#5c3a21"
         },
         {
-          "code": "VR17",
+          "code": "V57",
           "name": "",
-          "image": "QX17_W210_grey__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
-        },
-        {
-          "code": "VR17",
-          "name": "",
-          "image": "QX17_U120_white__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
+          "image": "V57_W240_white__Shot_A_4K_R10.webp",
+          "frameColorName": "White",
+          "frameColorCode": "#f0f0f0",
+          "desktopColorName": "W240",
+          "desktopColorCode": "#5c3a21",
+          "colorName": "W240 / White",
+          "colorCode": "#5c3a21"
         }
       ]
     },
     {
-      "model": "VR17R",
-      "label": "VR17R",
+      "model": "V57SW",
+      "label": "V57SW",
       "desc": "",
       "items": [
         {
-          "code": "VR17R",
+          "code": "V57SW",
           "name": "",
-          "image": "QX17R_W240_black__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
-        },
-        {
-          "code": "VR17R",
-          "name": "",
-          "image": "QX17R_W210_grey__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
-        },
-        {
-          "code": "VR17R",
-          "name": "",
-          "image": "QX17R_U120_white__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
+          "image": "V57SW_0_U120_grey__Shot_A__4K_R10.webp",
+          "frameColorName": "Grey",
+          "frameColorCode": "#b0b0b0",
+          "desktopColorName": "U120",
+          "desktopColorCode": "#c8c5be",
+          "colorName": "U120 / Grey",
+          "colorCode": "#c8c5be"
         }
       ]
     },
     {
-      "model": "VR380",
-      "label": "VR380",
+      "model": "V280",
+      "label": "V280",
       "desc": "",
       "items": [
         {
-          "code": "VR380",
+          "code": "V280",
           "name": "",
-          "image": "QX380_W240_black__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
+          "image": "V280_W240_black__Shot_A_4K_R10.webp",
+          "frameColorName": "Black",
+          "frameColorCode": "#1a1a1a",
+          "desktopColorName": "W240",
+          "desktopColorCode": "#5c3a21",
+          "colorName": "W240 / Black",
+          "colorCode": "#5c3a21"
         },
         {
-          "code": "VR380",
+          "code": "V280",
           "name": "",
-          "image": "QX380_W210_grey__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
+          "image": "V280_W240_white__Shot_A_4K_R10.webp",
+          "frameColorName": "White",
+          "frameColorCode": "#f0f0f0",
+          "desktopColorName": "W240",
+          "desktopColorCode": "#5c3a21",
+          "colorName": "W240 / White",
+          "colorCode": "#5c3a21"
         },
         {
-          "code": "VR380",
+          "code": "V280",
           "name": "",
-          "image": "QX380_U120_white__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
+          "image": "V280_U120_grey__Shot_A__4K_R10.webp",
+          "frameColorName": "Grey",
+          "frameColorCode": "#b0b0b0",
+          "desktopColorName": "U120",
+          "desktopColorCode": "#c8c5be",
+          "colorName": "U120 / Grey",
+          "colorCode": "#c8c5be"
         }
       ]
     },
     {
-      "model": "VR380R",
-      "label": "VR380R",
+      "model": "V280SW",
+      "label": "V280SW",
       "desc": "",
       "items": [
         {
-          "code": "VR380R",
+          "code": "V280SW",
           "name": "",
-          "image": "QX380R_W240_black__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
+          "image": "V280SW_W240_black__Shot_A_4K_R10.webp",
+          "frameColorName": "Black",
+          "frameColorCode": "#1a1a1a",
+          "desktopColorName": "W240",
+          "desktopColorCode": "#5c3a21",
+          "colorName": "W240 / Black",
+          "colorCode": "#5c3a21"
         },
         {
-          "code": "VR380R",
+          "code": "V280SW",
           "name": "",
-          "image": "QX380R_W210_grey__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
-        },
-        {
-          "code": "VR380R",
-          "name": "",
-          "image": "QX380R_U120_white__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
+          "image": "V280SW_0__U120_grey__Shot_A__4K_R10.webp",
+          "frameColorName": "Grey",
+          "frameColorCode": "#b0b0b0",
+          "desktopColorName": "U120",
+          "desktopColorCode": "#c8c5be",
+          "colorName": "U120 / Grey",
+          "colorCode": "#c8c5be"
         }
       ]
     }
