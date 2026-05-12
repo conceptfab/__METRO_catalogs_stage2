@@ -198,6 +198,35 @@
           "colorCode": ""
         }
       ]
+    },
+    {
+      "model": "V1D",
+      "label": "V1D",
+      "desc": "",
+      "items": [
+        {
+          "code": "V1D",
+          "name": "",
+          "image": "V1D_W240_black__Shot_A__4K_R9.webp",
+          "frameColorName": "",
+          "frameColorCode": "",
+          "desktopColorName": "",
+          "desktopColorCode": "",
+          "colorName": "",
+          "colorCode": ""
+        },
+        {
+          "code": "V1D",
+          "name": "",
+          "image": "V1D_U120_grey__Shot_A__4K_R9.webp",
+          "frameColorName": "",
+          "frameColorCode": "",
+          "desktopColorName": "",
+          "desktopColorCode": "",
+          "colorName": "",
+          "colorCode": ""
+        }
+      ]
     }
   ]
 }

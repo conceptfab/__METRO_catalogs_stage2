@@ -122,6 +122,46 @@
           "colorCode": ""
         }
       ]
+    },
+    {
+      "model": "QS1D",
+      "label": "QS1D",
+      "desc": "",
+      "items": [
+        {
+          "code": "QS1D",
+          "name": "",
+          "image": "QS1D_W240_black__Shot_A__4K_R9.webp",
+          "frameColorName": "",
+          "frameColorCode": "",
+          "desktopColorName": "",
+          "desktopColorCode": "",
+          "colorName": "",
+          "colorCode": ""
+        },
+        {
+          "code": "QS1D",
+          "name": "",
+          "image": "QS1D_U130_black__Shot_A__4K_R9.webp",
+          "frameColorName": "",
+          "frameColorCode": "",
+          "desktopColorName": "",
+          "desktopColorCode": "",
+          "colorName": "",
+          "colorCode": ""
+        },
+        {
+          "code": "QS1D",
+          "name": "",
+          "image": "QS1D_U100_white__Shot_A__4K_R8.webp",
+          "frameColorName": "",
+          "frameColorCode": "",
+          "desktopColorName": "",
+          "desktopColorCode": "",
+          "colorName": "",
+          "colorCode": ""
+        }
+      ]
     }
   ]
 }

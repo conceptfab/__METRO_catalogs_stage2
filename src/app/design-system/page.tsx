@@ -1514,10 +1514,10 @@ function ProductCodeTablePreview({
         role="table"
       >
         <colgroup>
-          <col className="w-[34%]" />
-          <col className="w-[17%]" />
+          <col className="w-[44%]" />
           <col className="w-[15%]" />
-          <col className="w-[34%]" />
+          <col className="w-[13%]" />
+          <col className="w-[28%]" />
         </colgroup>
         <thead>
           <tr className="bg-product-header font-bold text-accent-foreground">

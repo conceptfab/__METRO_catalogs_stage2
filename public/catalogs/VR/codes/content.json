@@ -3,7 +3,7 @@
   "title": "Order references",
   "description": "Use these unique codes when placing your order or specifying modules for your workspace.",
   "image": "/catalogs/VR/codes/axo_vr_codes.svg",
-  "legend": "* R – height-adjustable desk models. Other models feature a leveling range of +/- 1cm.",
+  "legend": "* SW – height-adjustable desk models. Other models feature a leveling range of +/- 1cm.",
   "groups": [
     {
       "id": "single-depth-70",
@@ -11,24 +11,24 @@
       "title": "VR single desk (depth 70 cm)",
       "rows": [
         {
-          "index": "VR1(R)*",
-          "indexR": "VR1R",
-          "dimensions": "120 × 70 × 74 (63-84)*"
+          "index": "V1(SW)*",
+          "indexR": "V1R",
+          "dimensions": "120 × 70 × 74 (64-84)*"
         },
         {
-          "index": "VR2(R)*",
-          "indexR": "VR2R",
-          "dimensions": "140 × 70 × 74 (63-84)*"
+          "index": "V2(SW)*",
+          "indexR": "V2R",
+          "dimensions": "140 × 70 × 74 (64-84)*"
         },
         {
-          "index": "VR3(R)*",
-          "indexR": "VR3R",
-          "dimensions": "160 × 70 × 74 (63-84)*"
+          "index": "V3(SW)*",
+          "indexR": "V3R",
+          "dimensions": "160 × 70 × 74 (64-84)*"
         },
         {
-          "index": "VR4(R)*",
-          "indexR": "VR4R",
-          "dimensions": "180 × 70 × 74 (63-84)*"
+          "index": "V4(SW)*",
+          "indexR": "V4R",
+          "dimensions": "180 × 70 × 74 (64-84)*"
         }
       ]
     },
@@ -38,24 +38,24 @@
       "title": "VR single desk (depth 80 cm)",
       "rows": [
         {
-          "index": "VR180(R)*",
-          "indexR": "VR1R80",
-          "dimensions": "120 × 80 × 74 (63-84)*"
+          "index": "V180/V1SW80*",
+          "indexR": "V1R80",
+          "dimensions": "120 × 80 × 74 (64-84)*"
         },
         {
-          "index": "VR280(R)*",
-          "indexR": "VR2R80",
-          "dimensions": "140 × 80 × 74 (63-84)*"
+          "index": "V280/V2SW80*",
+          "indexR": "V2R80",
+          "dimensions": "140 × 80 × 74 (64-84)*"
         },
         {
-          "index": "VR380(R)*",
-          "indexR": "VR3R80",
-          "dimensions": "160 × 80 × 74 (63-84)*"
+          "index": "V380/V3SW80*",
+          "indexR": "V3R80",
+          "dimensions": "160 × 80 × 74 (64-84)*"
         },
         {
-          "index": "VR480(R)*",
-          "indexR": "VR4R80",
-          "dimensions": "180 × 80 × 74 (63-84)*"
+          "index": "V480/V4SW80*",
+          "indexR": "V4R80",
+          "dimensions": "180 × 80 × 74 (64-84)*"
         }
       ]
     },
@@ -65,24 +65,24 @@
       "title": "Extension for VR single desk (depth 70 cm)",
       "rows": [
         {
-          "index": "VR1D(R)*",
-          "indexR": "VR1RD",
-          "dimensions": "66.5 × 50 × 74 (63-84)*"
+          "index": "V1D(SW)*",
+          "indexR": "V1RD",
+          "dimensions": "66.5 × 50 × 74 (64-84)*"
         },
         {
-          "index": "VR2D(R)*",
-          "indexR": "VR2RD",
-          "dimensions": "86.5 × 50 × 74 (63-84)*"
+          "index": "V2D(SW)*",
+          "indexR": "V2RD",
+          "dimensions": "86.5 × 50 × 74 (64-84)*"
         },
         {
-          "index": "VR3D(R)*",
-          "indexR": "VR3RD",
-          "dimensions": "106.5 × 50 × 74 (63-84)*"
+          "index": "V3D(SW)*",
+          "indexR": "V3RD",
+          "dimensions": "106.5 × 50 × 74 (64-84)*"
         },
         {
-          "index": "VR4D(R)*",
-          "indexR": "VR4RD",
-          "dimensions": "126.5 × 50 × 74 (63-84)*"
+          "index": "V4D(SW)*",
+          "indexR": "V4RD",
+          "dimensions": "126.5 × 50 × 74 (64-84)*"
         }
       ]
     },
@@ -92,24 +92,24 @@
       "title": "Extension for VR single desk (depth 80 cm)",
       "rows": [
         {
-          "index": "VR1D80(R)*",
-          "indexR": "VR1RD80",
-          "dimensions": "66.5 × 50 × 74 (63-84)*"
+          "index": "V1D80/V1DSW80*",
+          "indexR": "V1RD80",
+          "dimensions": "66.5 × 50 × 74 (64-84)*"
         },
         {
-          "index": "VR2D80(R)*",
-          "indexR": "VR2RD80",
-          "dimensions": "86.5 × 50 × 74 (63-84)*"
+          "index": "V2D80/V2DSW80*",
+          "indexR": "V2RD80",
+          "dimensions": "86.5 × 50 × 74 (64-84)*"
         },
         {
-          "index": "VR3D80(R)*",
-          "indexR": "VR3RD80",
-          "dimensions": "106.5 × 50 × 74 (63-84)*"
+          "index": "V3D80/V3DSW80*",
+          "indexR": "V3RD80",
+          "dimensions": "106.5 × 50 × 74 (64-84)*"
         },
         {
-          "index": "VR4D80(R)*",
-          "indexR": "VR4RD80",
-          "dimensions": "126.5 × 50 × 74 (63-84)*"
+          "index": "V4D80/V4DSW80*",
+          "indexR": "V4RD80",
+          "dimensions": "126.5 × 50 × 74 (64-84)*"
         }
       ]
     },
@@ -119,24 +119,24 @@
       "title": "VR bench double desk (depth 140 cm)",
       "rows": [
         {
-          "index": "VR10(R)*",
-          "indexR": "VR10R",
-          "dimensions": "120 × 140 × 74 (63-84)*"
+          "index": "V50(SW)*",
+          "indexR": "V10R",
+          "dimensions": "120 × 140 × 74 (64-84)*"
         },
         {
-          "index": "VR11(R)*",
-          "indexR": "VR11R",
-          "dimensions": "140 × 140 × 74 (63-84)*"
+          "index": "V51(SW)*",
+          "indexR": "V11R",
+          "dimensions": "140 × 140 × 74 (64-84)*"
         },
         {
-          "index": "VR12(R)*",
-          "indexR": "VR12R",
-          "dimensions": "160 × 140 × 74 (63-84)*"
+          "index": "V52(SW)*",
+          "indexR": "V12R",
+          "dimensions": "160 × 140 × 74 (64-84)*"
         },
         {
-          "index": "VR13(R)*",
-          "indexR": "VR13R",
-          "dimensions": "180 × 140 × 74 (63-84)*"
+          "index": "V53(SW)*",
+          "indexR": "V13R",
+          "dimensions": "180 × 140 × 74 (64-84)*"
         }
       ]
     },
@@ -146,24 +146,24 @@
       "title": "VR bench double desk (depth 160 cm)",
       "rows": [
         {
-          "index": "VR1080(R)*",
-          "indexR": "VR1080R",
-          "dimensions": "120 × 160 × 74 (63-84)*"
+          "index": "V5080/V55SW80*",
+          "indexR": "V1080R",
+          "dimensions": "120 × 160 × 74 (64-84)*"
         },
         {
-          "index": "VR1180(R)*",
-          "indexR": "VR1180R",
-          "dimensions": "140 × 160 × 74 (63-84)*"
+          "index": "V5180/V56SW80*",
+          "indexR": "V1180R",
+          "dimensions": "140 × 160 × 74 (64-84)*"
         },
         {
-          "index": "VR1280(R)*",
-          "indexR": "VR1280R",
-          "dimensions": "160 × 160 × 74 (63-84)*"
+          "index": "V5280/V57SW80*",
+          "indexR": "V1280R",
+          "dimensions": "160 × 160 × 74 (64-84)*"
         },
         {
-          "index": "VR1380(R)*",
-          "indexR": "VR1380R",
-          "dimensions": "180 × 160 × 74 (63-84)*"
+          "index": "V5380/V58SW80*",
+          "indexR": "V1380R",
+          "dimensions": "180 × 160 × 74 (64-84)*"
         }
       ]
     },
@@ -173,24 +173,24 @@
       "title": "VR bench double desk with access to the cable canal through the flaps (depth 140 cm)",
       "rows": [
         {
-          "index": "VR15(R)*",
-          "indexR": "VR15R",
-          "dimensions": "120 × 140 × 74 (63-84)*"
+          "index": "V55(SW)*",
+          "indexR": "V15R",
+          "dimensions": "120 × 140 × 74 (64-84)*"
         },
         {
-          "index": "VR16(R)*",
-          "indexR": "VR16R",
-          "dimensions": "140 × 140 × 74 (63-84)*"
+          "index": "V56(SW)*",
+          "indexR": "V16R",
+          "dimensions": "140 × 140 × 74 (64-84)*"
         },
         {
-          "index": "VR17(R)*",
-          "indexR": "VR17R",
-          "dimensions": "160 × 140 × 74 (63-84)*"
+          "index": "V57(SW)*",
+          "indexR": "V17R",
+          "dimensions": "160 × 140 × 74 (64-84)*"
         },
         {
-          "index": "VR18(R)*",
-          "indexR": "VR18R",
-          "dimensions": "180 × 140 × 74 (63-84)*"
+          "index": "V58(SW)*",
+          "indexR": "V18R",
+          "dimensions": "180 × 140 × 74 (64-84)*"
         }
       ]
     },
@@ -200,36 +200,24 @@
       "title": "VR bench double desk with access to the cable canal through the flaps (depth 160 cm)",
       "rows": [
         {
-          "index": "VR1580(R)*",
-          "indexR": "VR1580R",
-          "dimensions": "120 × 160 × 74 (63-84)*"
+          "index": "V5580/V55SW80*",
+          "indexR": "V1580R",
+          "dimensions": "120 × 160 × 74 (64-84)*"
         },
         {
-          "index": "VR1680(R)*",
-          "indexR": "VR1680R",
-          "dimensions": "140 × 160 × 74 (63-84)*"
+          "index": "V5680/V56SW80*",
+          "indexR": "V1680R",
+          "dimensions": "140 × 160 × 74 (64-84)*"
         },
         {
-          "index": "VR1780(R)*",
-          "indexR": "VR1780R",
-          "dimensions": "160 × 160 × 74 (63-84)*"
+          "index": "V5780/V57SW808",
+          "indexR": "V1780R",
+          "dimensions": "160 × 160 × 74 (64-84)*"
         },
         {
-          "index": "VR1880(R)*",
-          "indexR": "VR1880R",
-          "dimensions": "180 × 160 × 74 (63-84)*"
-        }
-      ]
-    },
-    {
-      "id": "manager-modesty-panel",
-      "category": "manager",
-      "title": "VR manager's desk with modesty panel",
-      "rows": [
-        {
-          "index": "VR60(R)*",
-          "indexR": "VR60R",
-          "dimensions": "200 × 80 × 74 (63-84)*"
+          "index": "V5880/v58SW80*",
+          "indexR": "V1880R",
+          "dimensions": "180 × 160 × 74 (64-84)*"
         }
       ]
     }
