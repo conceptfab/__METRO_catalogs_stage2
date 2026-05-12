@@ -118,7 +118,10 @@
       "Bash(git -C /Users/micz/__DEV__/__METRO_catalogs add src/middleware.ts src/middleware.test.ts)",
       "Bash(cp -r \"f:/___APPS/__METRO_catalogs_stage2/public/catalogs/QX\" \"f:/___APPS/__METRO_catalogs_stage2/public/catalogs/TS\")",
       "Bash(cp -r \"f:/___APPS/__METRO_catalogs_stage2/public/catalogs/QX\" \"f:/___APPS/__METRO_catalogs_stage2/public/catalogs/FM\")",
-      "Bash(node f:/tmp/rebrand-catalog.mjs TS FM)"
+      "Bash(node f:/tmp/rebrand-catalog.mjs TS FM)",
+      "Bash(python -c 'from PIL import Image, ImageStat; *)",
+      "Bash(python -c 'from PIL import Image, ImageStat *)",
+      "Bash(npx --no-install tsc --noEmit)"
     ],
     "additionalDirectories": [
       "/tmp"

@@ -463,11 +463,6 @@ function renderHeroQX({
       )}
 
       <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-x-0 bottom-0 z-[5] h-2/3 bg-gradient-to-t from-black/65 via-black/30 to-transparent"
-      />
-
-      <div
         className={`hero-content-wrapper hero-slide-${currentIndex} relative z-10 mx-auto flex min-h-screen w-full max-w-[1440px] flex-col px-6 sm:px-8 lg:px-0 ${wrapperFlexClasses}`}
         style={wrapperStyle}
       >
