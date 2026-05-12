@@ -4,14 +4,14 @@
   "subtitle": "All models",
   "groups": [
     {
-      "model": "FM11",
-      "label": "FM11",
+      "model": "FM1D",
+      "label": "FM1D",
       "desc": "",
       "items": [
         {
-          "code": "FM11",
+          "code": "FM1D",
           "name": "",
-          "image": "QX11_W240_black__Shot_A__4K_R10.webp",
+          "image": "FM1D_U130_RAL7024__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -20,9 +20,9 @@
           "colorCode": ""
         },
         {
-          "code": "FM11",
+          "code": "FM1D",
           "name": "",
-          "image": "QX11_W210_grey__Shot_A__4K_R10.webp",
+          "image": "FM1D_U100_white__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -31,9 +31,9 @@
           "colorCode": ""
         },
         {
-          "code": "FM11",
+          "code": "FM1D",
           "name": "",
-          "image": "QX11_U120_white__Shot_A__4K_R10.webp",
+          "image": "FM1D_PD3003__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -44,14 +44,14 @@
       ]
     },
     {
-      "model": "FM11R",
-      "label": "FM11R",
+      "model": "FM2",
+      "label": "FM2",
       "desc": "",
       "items": [
         {
-          "code": "FM11R",
+          "code": "FM2",
           "name": "",
-          "image": "QX11R_W240_black__Shot_A__4K_R10.webp",
+          "image": "FM2_U130_RAL7024__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -60,9 +60,9 @@
           "colorCode": ""
         },
         {
-          "code": "FM11R",
+          "code": "FM2",
           "name": "",
-          "image": "QX11R_W210_grey__Shot_A__4K_R10.webp",
+          "image": "FM2_U100_white__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -71,9 +71,9 @@
           "colorCode": ""
         },
         {
-          "code": "FM11R",
+          "code": "FM2",
           "name": "",
-          "image": "QX11R_U120_white__Shot_A__4K_R10.webp",
+          "image": "FM2_PD3003__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -84,14 +84,14 @@
       ]
     },
     {
-      "model": "FM17",
-      "label": "FM17",
+      "model": "FM3",
+      "label": "FM3",
       "desc": "",
       "items": [
         {
-          "code": "FM17",
+          "code": "FM3",
           "name": "",
-          "image": "QX17_W240_black__Shot_A__4K_R10.webp",
+          "image": "FM3_U130_RAL7024__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -100,9 +100,9 @@
           "colorCode": ""
         },
         {
-          "code": "FM17",
+          "code": "FM3",
           "name": "",
-          "image": "QX17_W210_grey__Shot_A__4K_R10.webp",
+          "image": "FM3_U100_white__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -111,9 +111,9 @@
           "colorCode": ""
         },
         {
-          "code": "FM17",
+          "code": "FM3",
           "name": "",
-          "image": "QX17_U120_white__Shot_A__4K_R10.webp",
+          "image": "FM3_PD3003__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -124,14 +124,14 @@
       ]
     },
     {
-      "model": "FM17R",
-      "label": "FM17R",
+      "model": "FM4",
+      "label": "FM4",
       "desc": "",
       "items": [
         {
-          "code": "FM17R",
+          "code": "FM4",
           "name": "",
-          "image": "QX17R_W240_black__Shot_A__4K_R10.webp",
+          "image": "FM4_U130_RAL7024__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -140,9 +140,9 @@
           "colorCode": ""
         },
         {
-          "code": "FM17R",
+          "code": "FM4",
           "name": "",
-          "image": "QX17R_W210_grey__Shot_A__4K_R10.webp",
+          "image": "FM4_U100_white__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -151,9 +151,9 @@
           "colorCode": ""
         },
         {
-          "code": "FM17R",
+          "code": "FM4",
           "name": "",
-          "image": "QX17R_U120_white__Shot_A__4K_R10.webp",
+          "image": "FM4_PD3003__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -164,14 +164,14 @@
       ]
     },
     {
-      "model": "FM380",
-      "label": "FM380",
+      "model": "FM580",
+      "label": "FM580",
       "desc": "",
       "items": [
         {
-          "code": "FM380",
+          "code": "FM580",
           "name": "",
-          "image": "QX380_W240_black__Shot_A__4K_R10.webp",
+          "image": "FM580_U130_RAL7024__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -180,9 +180,9 @@
           "colorCode": ""
         },
         {
-          "code": "FM380",
+          "code": "FM580",
           "name": "",
-          "image": "QX380_W210_grey__Shot_A__4K_R10.webp",
+          "image": "FM580_U100_white__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",
@@ -191,49 +191,9 @@
           "colorCode": ""
         },
         {
-          "code": "FM380",
+          "code": "FM580",
           "name": "",
-          "image": "QX380_U120_white__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
-        }
-      ]
-    },
-    {
-      "model": "FM380R",
-      "label": "FM380R",
-      "desc": "",
-      "items": [
-        {
-          "code": "FM380R",
-          "name": "",
-          "image": "QX380R_W240_black__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
-        },
-        {
-          "code": "FM380R",
-          "name": "",
-          "image": "QX380R_W210_grey__Shot_A__4K_R10.webp",
-          "frameColorName": "",
-          "frameColorCode": "",
-          "desktopColorName": "",
-          "desktopColorCode": "",
-          "colorName": "",
-          "colorCode": ""
-        },
-        {
-          "code": "FM380R",
-          "name": "",
-          "image": "QX380R_U120_white__Shot_A__4K_R10.webp",
+          "image": "FM580_PD3003__Shot_A__4K_R8.webp",
           "frameColorName": "",
           "frameColorCode": "",
           "desktopColorName": "",

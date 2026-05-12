@@ -1,12 +1,52 @@
 {
-  "/catalogs/FM/gallery/08_26_Metro_FM_DETAL_.webp": [],
-  "/catalogs/FM/gallery/08_26_Metro_FM_HERO_0_0000.webp": [],
-  "/catalogs/FM/gallery/08_26_Metro_FM_HERO_1_0000.webp": [],
-  "/catalogs/FM/gallery/08_26_Metro_FM_HOME0000.webp": [],
-  "/catalogs/FM/gallery/08_26_Metro_FM_SOLO_A_0000.webp": [],
-  "/catalogs/FM/gallery/08_26_Metro_FM_SOLO_B_0001.webp": [],
-  "/catalogs/FM/gallery/08_26_Metro_FM_SOLO_C_0000.webp": [],
-  "/catalogs/FM/gallery/08_26_Metro_FM_SOLO_D_0001.webp": [],
+  "/catalogs/FM/gallery/08_26_Metro_FM_DETAL_.webp": [
+    256,
+    512,
+    1024,
+    1600
+  ],
+  "/catalogs/FM/gallery/08_26_Metro_FM_HERO_0_0000.webp": [
+    400,
+    800,
+    1200,
+    1600
+  ],
+  "/catalogs/FM/gallery/08_26_Metro_FM_HERO_1_0000.webp": [
+    256,
+    512,
+    1024,
+    1600
+  ],
+  "/catalogs/FM/gallery/08_26_Metro_FM_HOME0000.webp": [
+    256,
+    512,
+    1024,
+    1600
+  ],
+  "/catalogs/FM/gallery/08_26_Metro_FM_SOLO_A_0000.webp": [
+    256,
+    512,
+    1024,
+    1600
+  ],
+  "/catalogs/FM/gallery/08_26_Metro_FM_SOLO_B_0001.webp": [
+    256,
+    512,
+    1024,
+    1600
+  ],
+  "/catalogs/FM/gallery/08_26_Metro_FM_SOLO_C_0000.webp": [
+    256,
+    512,
+    1024,
+    1600
+  ],
+  "/catalogs/FM/gallery/08_26_Metro_FM_SOLO_D_0001.webp": [
+    256,
+    512,
+    1024,
+    1600
+  ],
   "/catalogs/FM/hero/08_26_Metro_FM_HERO_R1A.webp": [
     640,
     1280,
@@ -64,12 +104,12 @@
     800,
     1200
   ],
-  "/catalogs/FM/materials/metro W210.png.webp": [
+  "/catalogs/FM/materials/metro W210.webp": [
     400,
     800,
     1200
   ],
-  "/catalogs/FM/materials/metro W220.png.webp": [
+  "/catalogs/FM/materials/metro W220.webp": [
     400,
     800,
     1200

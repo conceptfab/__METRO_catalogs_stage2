@@ -4,18 +4,10 @@
   "items": [
     {
       "icon": "layout-grid",
-      "title": "Modular & scalable",
-      "desc": "Wide range of sizes with height adjustment — pick the footprint that fits the room and set the working level to suit each user.",
+      "title": "Classic & timeless",
+      "desc": "A clean, restrained silhouette that fits any office aesthetic — from formal executive suites to modern open-plan layouts.",
       "video": {
-        "src": "/catalogs/FM/features/QX_modular.mp4"
-      }
-    },
-    {
-      "icon": "puzzle",
-      "title": "Accessory ready",
-      "desc": "Mount monitor arms, CPU holders, cable trays, and power modules without drilling. The under-desk rail accepts 30+ certified accessories from day one or after years of use.",
-      "video": {
-        "src": "/catalogs/FM/features/ac.mp4"
+        "src": "/catalogs/FM/features/FM_classic.mp4"
       }
     },
     {
@@ -23,15 +15,7 @@
       "title": "Quick & simple assembly",
       "desc": "Pre-assembled frame keeps installation fast and straightforward. One person can complete a full desk without specialist help.",
       "video": {
-        "src": "/catalogs/FM/features/assembly.mp4"
-      }
-    },
-    {
-      "icon": "sparkles",
-      "title": "Seamless welded joints",
-      "desc": "Profile joints are welded and finished without visible seams, leaving the frame clean and uniform from every angle.",
-      "video": {
-        "src": "/catalogs/FM/features/QX_welds.mp4"
+        "src": "/catalogs/FM/features/FM_assembly.mp4"
       }
     },
     {
@@ -39,7 +23,7 @@
       "title": "Optional return desk",
       "desc": "A side return can be attached to extend the work surface — useful for L-shape setups and longer workstations.",
       "video": {
-        "src": "/catalogs/FM/features/QX_extend.mp4"
+        "src": "/catalogs/FM/features/FM_extend.mp4"
       }
     }
   ]
