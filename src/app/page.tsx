@@ -8,16 +8,17 @@ const QX_HERO_IMAGE = '/catalogs/QX/hero/02_26_Metro_QX_HERO_1_R3-clean_noise_th
 const QS_HERO_IMAGE = '/catalogs/QS/hero/04_26_Metro_QS_SOLO_B2_hero_noise.webp';
 const VR_HERO_IMAGE = '/catalogs/VR/hero/05_26_Metro_VR_HERO_A1_noise.webp';
 const TS_HERO_IMAGE = '/catalogs/TS/hero/07_26_Metro_TS_HERO_R1_noise.webp';
+const FM_HERO_IMAGE = '/catalogs/FM/hero/08_26_Metro_FM_HERO_R1A.webp';
 
 export const metadata: Metadata = {
   title: 'METRO – Catalogs',
   description:
-    'Browse METRO office furniture catalogs: QX, QS, VR, and TS desk systems, conference tables, and reception desks.',
+    'Browse METRO office furniture catalogs: QX, QS, VR, TS, and FM desk systems, conference tables, and reception desks.',
   alternates: { canonical: '/' },
   openGraph: {
     title: 'METRO – Catalogs',
     description:
-      'Browse METRO office furniture catalogs: QX, QS, VR, and TS desk systems, conference tables, and reception desks.',
+      'Browse METRO office furniture catalogs: QX, QS, VR, TS, and FM desk systems, conference tables, and reception desks.',
     url: '/',
     type: 'website',
   },
@@ -33,6 +34,7 @@ export default async function HomePage() {
   const qsCatalog = catalogs.find((c) => c.id === 'QS');
   const vrCatalog = catalogs.find((c) => c.id === 'VR');
   const tsCatalog = catalogs.find((c) => c.id === 'TS');
+  const fmCatalog = catalogs.find((c) => c.id === 'FM');
 
   return (
     <div className="catalog-qx0">
@@ -148,10 +150,29 @@ export default async function HomePage() {
                 <div className="h-full w-full bg-background" />
               )}
             </li>
-            <li
-              className="aspect-[1/2] border border-border bg-background/40"
-              aria-hidden="true"
-            />
+            <li className="aspect-[1/2]">
+              {fmCatalog ? (
+                <Link
+                  href={`/catalog/${fmCatalog.id}`}
+                  className="group relative block h-full w-full overflow-hidden bg-background outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-foreground"
+                  aria-label={`Open ${fmCatalog.meta.title} catalog`}
+                >
+                  <Image
+                    src={FM_HERO_IMAGE}
+                    alt=""
+                    fill
+                    sizes="(min-width: 1024px) 85vw, (min-width: 640px) 132vw, 200vw"
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/55" />
+                  <span className="pointer-events-none absolute inset-0 flex items-center justify-center font-display text-[88px] font-black tracking-tighter text-background opacity-0 group-hover:opacity-100">
+                    FM
+                  </span>
+                </Link>
+              ) : (
+                <div className="h-full w-full bg-background" />
+              )}
+            </li>
           </ul>
         </section>
 

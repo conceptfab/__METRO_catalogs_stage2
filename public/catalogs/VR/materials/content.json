@@ -2,7 +2,6 @@
   "sectionLabel": "Customization",
   "title": "Materials & finishes",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus volutpat tempor odio rutrum varius.",
-  "previewMode": "frame-only",
   "materials": [
     {
       "name": "Desktop Surface",
