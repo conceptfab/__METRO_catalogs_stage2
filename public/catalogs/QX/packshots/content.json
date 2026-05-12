@@ -242,6 +242,46 @@
           "colorCode": ""
         }
       ]
+    },
+    {
+      "model": "QX1D",
+      "label": "QX1D",
+      "desc": "",
+      "items": [
+        {
+          "code": "QX1D",
+          "name": "",
+          "image": "QX1D_U130_black_.webp",
+          "frameColorName": "",
+          "frameColorCode": "",
+          "desktopColorName": "",
+          "desktopColorCode": "",
+          "colorName": "",
+          "colorCode": ""
+        },
+        {
+          "code": "QX1D",
+          "name": "",
+          "image": "QX1D_U120_white_.webp",
+          "frameColorName": "",
+          "frameColorCode": "",
+          "desktopColorName": "",
+          "desktopColorCode": "",
+          "colorName": "",
+          "colorCode": ""
+        },
+        {
+          "code": "QX1D",
+          "name": "",
+          "image": "QX1D_W240_white_.webp",
+          "frameColorName": "",
+          "frameColorCode": "",
+          "desktopColorName": "",
+          "desktopColorCode": "",
+          "colorName": "",
+          "colorCode": ""
+        }
+      ]
     }
   ]
 }

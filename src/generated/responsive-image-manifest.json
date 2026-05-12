@@ -140,11 +140,6 @@
     1200,
     1600
   ],
-  "/catalogs/FM/packshots/FM1D_PD3003__Shot_A__4K_R8.webp": [
-    480,
-    960,
-    1440
-  ],
   "/catalogs/FM/packshots/FM1D_U100_white__Shot_A__4K_R8.webp": [
     480,
     960,
@@ -155,7 +150,7 @@
     960,
     1440
   ],
-  "/catalogs/FM/packshots/FM2_PD3003__Shot_A__4K_R8.webp": [
+  "/catalogs/FM/packshots/FM1D_W310__Shot_A__4K_R8.webp": [
     480,
     960,
     1440
@@ -170,7 +165,7 @@
     960,
     1440
   ],
-  "/catalogs/FM/packshots/FM3_PD3003__Shot_A__4K_R8.webp": [
+  "/catalogs/FM/packshots/FM2_W310__Shot_A__4K_R8.webp": [
     480,
     960,
     1440
@@ -185,7 +180,7 @@
     960,
     1440
   ],
-  "/catalogs/FM/packshots/FM4_PD3003__Shot_A__4K_R8.webp": [
+  "/catalogs/FM/packshots/FM3_W310__Shot_A__4K_R8.webp": [
     480,
     960,
     1440
@@ -200,7 +195,7 @@
     960,
     1440
   ],
-  "/catalogs/FM/packshots/FM580_PD3003__Shot_A__4K_R8.webp": [
+  "/catalogs/FM/packshots/FM4_W310__Shot_A__4K_R8.webp": [
     480,
     960,
     1440
@@ -211,6 +206,11 @@
     1440
   ],
   "/catalogs/FM/packshots/FM580_U130_RAL7024__Shot_A__4K_R8.webp": [
+    480,
+    960,
+    1440
+  ],
+  "/catalogs/FM/packshots/FM580_W310__Shot_A__4K_R8.webp": [
     480,
     960,
     1440
@@ -611,6 +611,21 @@
     960,
     1440
   ],
+  "/catalogs/QX/packshots/QX1D_U120_white_.webp": [
+    480,
+    960,
+    1440
+  ],
+  "/catalogs/QX/packshots/QX1D_U130_black_.webp": [
+    480,
+    960,
+    1440
+  ],
+  "/catalogs/QX/packshots/QX1D_W240_white_.webp": [
+    480,
+    960,
+    1440
+  ],
   "/catalogs/QX/packshots/QX380R_U120_white__Shot_A__4K_R10.webp": [
     480,
     960,
@@ -849,6 +864,12 @@
     800,
     1200,
     1600
+  ],
+  "/catalogs/VR/hero/05_26_Metro_VR_HERO_3_noise.webp": [
+    640,
+    1280,
+    1920,
+    2560
   ],
   "/catalogs/VR/hero/05_26_Metro_VR_HERO_A1_noise.webp": [
     640,

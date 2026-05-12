@@ -87,6 +87,11 @@ const ProductCodesQX = ({ data }: ProductCodesSectionProps) => {
   const managerGroups = data.groups.filter(
     (group) => group.category === 'manager',
   );
+  const gridClass =
+    data.gridColumns === 2
+      ? 'grid grid-cols-1 grid-rows-[auto_auto] gap-y-6 sm:grid-cols-2 sm:gap-x-10 lg:grid-cols-2 lg:gap-x-10 lg:gap-y-10'
+      : 'grid grid-cols-1 grid-rows-[auto_auto] gap-y-6 sm:grid-cols-2 sm:gap-x-10 lg:grid-cols-4 lg:gap-x-[calc((100%-1372px)/3)]';
+  const legendColSpan = data.gridColumns === 2 ? 'lg:col-span-1' : 'lg:col-span-3';
 
   return (
     <section
@@ -149,7 +154,7 @@ const ProductCodesQX = ({ data }: ProductCodesSectionProps) => {
               <h3 className="mb-2 font-display text-sm font-semibold uppercase text-foreground/70">
                 Single desks
               </h3>
-              <div className="grid grid-cols-1 grid-rows-[auto_auto] gap-y-6 sm:grid-cols-2 sm:gap-x-10 lg:grid-cols-4 lg:gap-x-[calc((100%-1372px)/3)]">
+              <div className={gridClass}>
                 {singleDeskGroups.map((group) => (
                   <ProductCodeTable key={group.id} group={group} open={desktopOpen} />
                 ))}
@@ -162,7 +167,7 @@ const ProductCodesQX = ({ data }: ProductCodesSectionProps) => {
               <h3 className="mb-2 font-display text-sm font-semibold uppercase text-foreground/70">
                 Bench desks
               </h3>
-              <div className="grid grid-cols-1 grid-rows-[auto_auto] gap-y-6 sm:grid-cols-2 sm:gap-x-10 lg:grid-cols-4 lg:gap-x-[calc((100%-1372px)/3)]">
+              <div className={gridClass}>
                 {benchGroups.map((group) => (
                   <ProductCodeTable key={group.id} group={group} open={desktopOpen} />
                 ))}
@@ -177,12 +182,12 @@ const ProductCodesQX = ({ data }: ProductCodesSectionProps) => {
                   Manager desk
                 </h3>
               )}
-              <div className="grid grid-cols-1 grid-rows-[auto_auto] gap-y-6 sm:grid-cols-2 sm:gap-x-10 lg:grid-cols-4 lg:gap-x-[calc((100%-1372px)/3)]">
+              <div className={gridClass}>
                 {managerGroups.map((group) => (
                   <ProductCodeTable key={group.id} group={group} open={desktopOpen} />
                 ))}
                 {data.legend && (
-                  <div className="flex items-end pb-1.5 lg:col-span-3 lg:pl-10">
+                  <div className={`flex items-end pb-1.5 ${legendColSpan} lg:pl-10`}>
                     <p className="font-body text-[13px] leading-tight text-foreground/65">
                       <QxText text={data.legend} />
                     </p>

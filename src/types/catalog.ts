@@ -332,6 +332,14 @@ export interface MaterialsData {
   materials: MaterialItem[];
   swatches: ColorSwatch[];
   configurator?: MaterialsConfiguratorData;
+  /**
+   * Preview compositing mode. Default 'layered' overlays desktop on top of frame
+   * (requires assets where frame has transparent top area and desktop has
+   * transparent rest). Use 'frame-only' when materials are full-scene renders
+   * (each frame file already contains a complete desk view) to avoid the
+   * desktop overlay covering the leg.
+   */
+  previewMode?: 'layered' | 'frame-only' | 'desktop-only';
 }
 
 export interface FeatureItem {
@@ -391,6 +399,7 @@ export interface ProductCodesData {
   description: string;
   image?: string;
   legend?: string;
+  gridColumns?: 2 | 4;
   groups: ProductCodeGroup[];
 }
 

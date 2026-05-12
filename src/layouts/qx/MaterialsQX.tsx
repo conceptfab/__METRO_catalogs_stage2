@@ -266,43 +266,47 @@ const MaterialsQX = ({ data }: MaterialsSectionProps) => {
               role="img"
               aria-label={configuratorAlt}
             >
-              <AnimatePresence mode="wait" initial={false}>
-                <m.img
-                  key={`frame-${selectedFrame.image}`}
-                  src={selectedFrame.image}
-                  {...responsiveImg(selectedFrame.image, 'materials-full')}
-                  alt=""
-                  aria-hidden="true"
-                  draggable={false}
-                  className="absolute inset-0 h-full w-full object-contain"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  transition={slowTransition({
-                    duration: 0.22,
-                    ease: 'easeOut',
-                  })}
-                />
-              </AnimatePresence>
+              {data.previewMode !== 'desktop-only' && (
+                <AnimatePresence mode="wait" initial={false}>
+                  <m.img
+                    key={`frame-${selectedFrame.image}`}
+                    src={selectedFrame.image}
+                    {...responsiveImg(selectedFrame.image, 'materials-full')}
+                    alt=""
+                    aria-hidden="true"
+                    draggable={false}
+                    className="absolute inset-0 h-full w-full object-contain"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={slowTransition({
+                      duration: 0.22,
+                      ease: 'easeOut',
+                    })}
+                  />
+                </AnimatePresence>
+              )}
 
-              <AnimatePresence mode="wait" initial={false}>
-                <m.img
-                  key={`desktop-${selectedDesktop.image}`}
-                  src={selectedDesktop.image}
-                  {...responsiveImg(selectedDesktop.image, 'materials-full')}
-                  alt=""
-                  aria-hidden="true"
-                  draggable={false}
-                  className="absolute inset-0 h-full w-full object-contain"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  transition={slowTransition({
-                    duration: 0.22,
-                    ease: 'easeOut',
-                  })}
-                />
-              </AnimatePresence>
+              {data.previewMode !== 'frame-only' && (
+                <AnimatePresence mode="wait" initial={false}>
+                  <m.img
+                    key={`desktop-${selectedDesktop.image}`}
+                    src={selectedDesktop.image}
+                    {...responsiveImg(selectedDesktop.image, 'materials-full')}
+                    alt=""
+                    aria-hidden="true"
+                    draggable={false}
+                    className="absolute inset-0 h-full w-full object-contain"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={slowTransition({
+                      duration: 0.22,
+                      ease: 'easeOut',
+                    })}
+                  />
+                </AnimatePresence>
+              )}
             </figure>
           ) : null}
         </m.div>

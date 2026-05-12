@@ -657,6 +657,27 @@ html {
     padding-bottom: 0 !important;
   }
 
+  /* FM all slides: top-anchor treatment (mirrors QS). */
+  .catalog-id-fm .hero-content-wrapper {
+    justify-content: flex-start !important;
+    padding-top: 4rem !important;
+    padding-bottom: 0 !important;
+  }
+
+  /* VR all slides: top-anchor treatment (mirrors QS). */
+  .catalog-id-vr .hero-content-wrapper {
+    justify-content: flex-start !important;
+    padding-top: 4rem !important;
+    padding-bottom: 0 !important;
+  }
+
+  /* TS all slides: top-anchor treatment (mirrors QS). */
+  .catalog-id-ts .hero-content-wrapper {
+    justify-content: flex-start !important;
+    padding-top: 4rem !important;
+    padding-bottom: 0 !important;
+  }
+
   /* Per-catalog mobile crop — keeps the product in frame on portrait phones.
      !important is required because object-position is driven by the running
      hero-mobile-pan / hero-mobile-pan-reverse @keyframes animation; a static

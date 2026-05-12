@@ -3,7 +3,7 @@
   "title": "Order references",
   "description": "Use these unique codes when placing your order or specifying modules for your workspace.",
   "image": "/catalogs/FM/codes/axo_fm_codes.svg",
-  "legend": "* R – height-adjustable desk models. Other models feature a leveling range of +/- 1cm.",
+  "gridColumns": 2,
   "groups": [
     {
       "id": "single-depth-70",
@@ -120,18 +120,6 @@
           "index": "FM4D80",
           "indexR": "FM4RD80",
           "dimensions": "126.5 × 50 × 74"
-        }
-      ]
-    },
-    {
-      "id": "manager-modesty-panel",
-      "category": "manager",
-      "title": "FM manager's desk with modesty panel",
-      "rows": [
-        {
-          "index": "FM60(R)*",
-          "indexR": "FM60R",
-          "dimensions": "200 × 80 × 74 (63-84)*"
         }
       ]
     }
