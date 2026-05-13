@@ -27,7 +27,6 @@ const ProductCodeTable = ({ group, open }: { group: ProductCodeGroup; open: bool
     <div className="codes-accordion__content">
       <table
         className="w-full table-fixed border-separate border-spacing-0 text-[13px]"
-        role="table"
       >
         <colgroup>
           <col className="w-[44%]" />

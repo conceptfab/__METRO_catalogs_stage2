@@ -304,7 +304,7 @@ function renderCatalogNav({
 
               {!logoOnly && (
                 <div className="ml-auto hidden h-full w-full max-w-[1150px] lg:block">
-                  <ul className="flex h-full items-stretch justify-between" role="list">
+                  <ul className="flex h-full items-stretch justify-between">
                     {visibleSections.map((section, index) => (
                       <li key={section.id} className="h-full">
                         <button
@@ -350,7 +350,7 @@ function renderCatalogNav({
               exit={{ opacity: 0, y: -20 }}
               className="fixed left-0 right-0 top-[44px] z-[59] border-b border-border bg-surface-elevated shadow-xl !rounded-none sm:top-[56px] lg:hidden"
             >
-              <ul className="flex flex-col !rounded-none" role="list">
+              <ul className="flex flex-col !rounded-none">
                 {visibleSections.map((section) => (
                   <li key={section.id}>
                     <button
@@ -402,7 +402,7 @@ function renderCatalogNav({
             />
 
             <div className="ml-auto hidden w-full max-w-[1150px] lg:block">
-              <ul className="flex items-center" role="list">
+              <ul className="flex items-center">
                 {visibleSections.map((section) => (
                   <li key={section.id} className="flex-1">
                     <button
@@ -443,7 +443,7 @@ function renderCatalogNav({
             exit={{ opacity: 0, y: -20 }}
             className="fixed left-0 right-0 top-14 z-[59] border-b border-border bg-surface-elevated shadow-xl lg:hidden"
           >
-            <ul className="flex flex-col p-4" role="list">
+            <ul className="flex flex-col p-4">
               {visibleSections.map((section) => (
                 <li key={section.id}>
                   <button

@@ -1511,7 +1511,6 @@ function ProductCodeTablePreview({
       <h4 className="font-body text-[13px] leading-tight text-foreground/65">{title}</h4>
       <table
         className="w-full table-fixed border-separate border-spacing-0 text-[13px]"
-        role="table"
       >
         <colgroup>
           <col className="w-[44%]" />
